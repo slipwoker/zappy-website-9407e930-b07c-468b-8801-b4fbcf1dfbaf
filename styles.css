@@ -5616,6 +5616,26 @@ body.accessibility-widget-visible ._access-menu {
 /* === BUTTON TEXT OVERRIDES END === */
 
 
+.home-hero-section h1,
+.home-hero-section h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.06em;
+  text-shadow: 0 0 40px rgba(255, 45, 120, 0.5), 0 0 80px rgba(0, 229, 255, 0.2);
+}
+
+.home-hero-section p {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.home-hero-section .nav-cta-btn,
+.home-hero-section a[class*="btn"],
+.home-hero-section button[class*="btn"] {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
